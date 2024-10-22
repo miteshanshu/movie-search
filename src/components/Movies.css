@@ -1,0 +1,22 @@
+.moviesPanel {
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.moviesPanel img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.moviesPanel p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+.moviesPanel:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
